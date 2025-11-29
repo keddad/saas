@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  sas:
+    build: .
+    container_name: saas
+    ports:
+      - "1337:8080"
+    restart: unless-stopped
