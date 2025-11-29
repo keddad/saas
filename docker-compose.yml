@@ -1,6 +1,6 @@
 version: '3.8'
 services:
-  sas:
+  saas:
     build: .
     container_name: saas
     ports:
